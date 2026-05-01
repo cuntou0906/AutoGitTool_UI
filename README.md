@@ -1,4 +1,4 @@
-# AutoGitTool
+# ![alt text](./Img/AutoGitTool_Logo16.ico) AutoGitTool
 
 这是一个使用PyQt5开发的可视化Git工具应用程序，用于本地Git仓库和远程仓库的协同。
 
