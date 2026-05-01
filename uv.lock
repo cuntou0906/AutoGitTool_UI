@@ -1,0 +1,39 @@
+version = 1
+revision = 2
+requires-python = ">=3.7"
+
+[[package]]
+name = "autogittool-ui"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "pyqt5" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pyqt5", specifier = "==5.9.2" }]
+
+[[package]]
+name = "pyqt5"
+version = "5.9.2"
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
+dependencies = [
+    { name = "sip" },
+]
+wheels = [
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/5e/41/93bf8f289b476bc5d8cece7948a166cbcea761f5b1262e5fdd7076a5e02a/PyQt5-5.9.2-5.9.3-cp35.cp36.cp37-abi3-macosx_10_6_intel.whl", hash = "sha256:1abd07467539f26e2e08e26cf27f3513d02c20d038f5ba2e860b5e158cf2f8b1", size = 81667775, upload-time = "2017-11-24T10:32:11.684Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/3a/c6/26270f5550f00920045c2f0b222a7d03d7a64382825c68bf0bb1a51d854c/PyQt5-5.9.2-5.9.3-cp35.cp36.cp37-abi3-manylinux1_x86_64.whl", hash = "sha256:5dab7244b6932606490b47a0692e03d7b72d89f7d3dfa3d147a8b34d6af72451", size = 105330578, upload-time = "2017-11-24T10:32:57.568Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/a0/b1/95c3b2cf3c0dc50315413857a1f67c4fd6e86c609c5f3e01a38b331a23eb/PyQt5-5.9.2-5.9.3-cp35.cp36.cp37-none-win32.whl", hash = "sha256:53cdaf2e27945c4828c5c346410208a68017ddb7d333e7885b9087ddb02e7de0", size = 65490546, upload-time = "2017-11-24T10:33:33.305Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/67/ad/5ce6033bded3c39043a2c67cc46b3976427187f68c9dbaf5533884899086/PyQt5-5.9.2-5.9.3-cp35.cp36.cp37-none-win_amd64.whl", hash = "sha256:c83b5dabf950e47d0ea3f324a80640d25ae4d0ed90013a45f824498b2110ff84", size = 77433285, upload-time = "2017-11-24T10:34:20.597Z" },
+]
+
+[[package]]
+name = "sip"
+version = "4.19.8"
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
+wheels = [
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/76/e2/64bd7b249fb3fe3d225338d0acccaeb34da6a26f72f5eac969ad9c570ea0/sip-4.19.8-cp37-cp37m-macosx_10_6_intel.whl", hash = "sha256:97bb93ee0ef01ba90f57be2b606e08002660affd5bc380776dd8b0fcaa9e093a", size = 51257, upload-time = "2018-02-27T17:12:01.549Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/6f/42/538d33b0add4c0ae05bce1e0ee74fd0a13c3f1354fefdbf5d2077a8a866d/sip-4.19.8-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:7d69e9cf4f8253a3c0dfc5ba6bb9ac8087b8239851f22998e98cb35cfe497b68", size = 66445, upload-time = "2018-02-27T17:12:02.826Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/89/34/056db01926839dd05f80a08a579ee2f4f6625913b0620580ee580fa05fbf/sip-4.19.8-cp37-none-win32.whl", hash = "sha256:1bb10aac55bd5ab0e2ee74b3047aa2016cfa7932077c73f602a6f6541af8cd51", size = 42713, upload-time = "2018-02-27T17:12:03.925Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/4c/fb/4fb2152ee346133603779ef267ea5a7eb50cb6679674bf9b851722cf297b/sip-4.19.8-cp37-none-win_amd64.whl", hash = "sha256:105edaaa1c8aa486662226360bd3999b4b89dd56de3e314d82b83ed0587d8783", size = 51279, upload-time = "2018-02-27T17:12:09.131Z" },
+]

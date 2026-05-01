@@ -1,0 +1,16 @@
+{
+  "repositories": [
+    {
+      "local_path": "C:/Users/cunto/Desktop/repott1",
+      "remote_url": "https://github.com/cuntou0906/repott1"
+    },
+    {
+      "local_path": "C:/Users/cunto/Desktop/repott2",
+      "remote_url": "https://github.com/cuntou0906/repott2"
+    },
+    {
+      "local_path": "C:/Users/cunto/Desktop/repott3",
+      "remote_url": "https://github.com/cuntou0906/repott3"
+    }
+  ]
+}
