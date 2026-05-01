@@ -3,11 +3,10 @@ name = "autogittool-ui"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.9"
 dependencies = [
-    "pyqt5==5.9.2",
+    "pyqt5==5.15.1",
 ]
-
 
 [[tool.uv.index]]
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"

@@ -292,10 +292,21 @@ class GitToolApp(QMainWindow):
 
     def modify_repository_pair(self):
         current_row = self.repo_list.currentRow()
+        print(current_row)
         if current_row >= 0:
+            # Get local repository path
+            Modi_local_path = QFileDialog.getExistingDirectory(self, "选择本地仓库/目录")
+            if not Modi_local_path:
+                return
+
+            # Get remote URL
+            Modi_remote_url, ok = QInputDialog.getText(self, "远端URL", "请输入远程仓库 URL：")
+            if not ok or not Modi_remote_url:
+                return
+            
             repo = self.repo_data[current_row]
-            self.local_repos[current_row] = repo['path']
-            self.remote_urls[current_row] = repo['url']
+            self.local_repos[current_row] = Modi_local_path
+            self.remote_urls[current_row] = Modi_remote_url
             self.save_config_to_file(self.config_file)
             self.refresh_repo_list()
             self.status_bar.showMessage("仓库配置对修改成功！", 3000)
