@@ -1,0 +1,60 @@
+name: "🐛 Bug Report / Bug 报告"
+description: |
+  Report errors or unexpected behavior.
+  报告错误或异常行为。
+labels:
+  - bug
+body:
+  - type: checkboxes
+    attributes:
+      label: Self Checks / 自检
+      options:
+        - label: |
+            I have read the [README.MD](https://github.com/cuntou0906/AutoGitTool_PythonScript) File.
+            我已阅读[README](https://github.com/cuntou0906/AutoGitTool_PythonScript)文件。
+          required: true
+        - label: |
+            I have searched for [existing issues](https://github.com/cuntou0906/AutoGitTool_PythonScript/issues), including closed ones.
+            我已搜索过[已有的 Issue](https://github.com/cuntou0906/AutoGitTool_PythonScript/issues)，包括已关闭的。
+          required: true
+
+  - type: input
+    attributes:
+      label: Python Version / Python 版本号
+      description: |
+        Describe the version of Python used.
+        描述使用的python版本。
+      placeholder: "e.g. 1.0"
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Pyqt5 Version / Pyqt5 版本号
+      description: |
+        Describe the version of Pyqt5 used.
+        描述使用的Pyqt5版本。
+      placeholder: "e.g. 1.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Operating System / 操作系统
+      multiple: false
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: true
+
+
+  - type: textarea
+    attributes:
+      label: Detailed description of error message / 报错信息详细描述
+      description: |
+        Add detailed information, screenshots, or logs.
+        添加详细的信息、截图或日志。
+    validations:
+      required: false
