@@ -10,12 +10,12 @@ body:
       label: Self Checks / 自检
       options:
         - label: |
-            I have read the [README.MD](https://github.com/cuntou0906/AutoGitTool_PythonScript) File.
-            我已阅读[README](https://github.com/cuntou0906/AutoGitTool_PythonScript)文件。
+            I have read the [README.MD](https://github.com/cuntou0906/AutoGitTool_UI) File.
+            我已阅读[README](https://github.com/cuntou0906/AutoGitTool_UI)文件。
           required: true
         - label: |
-            I have searched for [existing issues](https://github.com/cuntou0906/AutoGitTool_PythonScript/issues), including closed ones.
-            我已搜索过[已有的 Issue](https://github.com/cuntou0906/AutoGitTool_PythonScript/issues)，包括已关闭的。
+            I have searched for [existing issues](https://github.com/cuntou0906/AutoGitTool_UI/issues), including closed ones.
+            我已搜索过[已有的 Issue](https://github.com/cuntou0906/AutoGitTool_UI/issues)，包括已关闭的。
           required: true
 
   - type: input
